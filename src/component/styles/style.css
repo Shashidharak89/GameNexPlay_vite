@@ -1,0 +1,102 @@
+.nav-bar {
+    background-color: rgb(20, 20, 58);
+   
+        width: 100vw; /* Ensures the navbar takes the full viewport width */
+        /* Other styling properties */
+   
+    
+}
+
+.link-items {
+    display: flex;
+    justify-content: end;
+}
+.dom-title{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    margin-right: 15px;
+}
+.nav-items {
+    margin-left: 20px;
+    margin-top: 20px;
+    color: aliceblue;
+    margin-bottom: 10px;
+    text-decoration: none;
+    border-left: 2px solid rgb(255, 207, 17);  
+    padding-left: 10px;
+    transition: 0.5s;
+}
+#home{
+    border: none;
+}
+.nav-items:hover{
+    color: orange;
+    transition: 0.5s;
+    text-shadow: 1px 1px 3px  red;
+}
+.link-items-container{
+    display: flex;
+    font-family: 'Candara', Arial, sans-serif;
+    /* justify-content: center; */
+}
+
+.link-items-container label {
+    color: rgb(211, 92, 13);
+    margin-left: 15px; 
+    font-family: 'Candara', Arial, sans-serif;
+    font-size: 30px;
+   
+}
+
+.coins {
+    color: white;
+    display: flex;
+    justify-content: end;
+    width: 90px;
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.coins button {
+    border: none;
+    background-color: transparent;
+    color: white;
+    margin-right: 5px;
+    margin-top: 3px;
+    padding: 0;
+    /* margin-top: 7px; */
+    /* font-size: 13px; */
+}
+.logo{
+    overflow: hidden;
+    padding-left:5px;
+    padding-top: 5px;
+    padding-bottom:5px ;
+    margin-right: 3px;
+}
+.coin-img{
+    width: 100%; /* Make the image take the full width of the div */
+    height: 100%; /* Make the image take the full height of the div */
+    object-fit: cover;
+}
+.coin-click button{
+    color: rgb(255, 252, 222);
+    transition: 0.4s;
+
+}
+.coin-click button:hover{
+    color: rgb(0, 255, 4);
+    transition: 0.4s;
+}
+.main {
+    width: 100%;
+    /* Other styling properties */
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
