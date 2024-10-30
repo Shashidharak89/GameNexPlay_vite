@@ -6,9 +6,8 @@
     text-align: center;
     font-family: 'Candara', Arial, sans-serif;
     animation: fadeIn 1s ease-in;
-   
     background-color: black;
-    
+    height: 800px;
   }
   
   .about-title {
