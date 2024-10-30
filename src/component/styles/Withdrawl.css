@@ -1,57 +1,112 @@
-.withdrawal-container {
-    padding: 40px;
-    text-align: center;
-    /* max-width: 800px; */
-    margin: 0 auto;
-    color: #fff;
-    background-color: black;
-    border-radius: 8px;
-  }
-  
-  .withdrawal-container h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-  }
-  
-  .voucher-options {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-  }
-  
+.withdraw{
+  height: 800px;
+}
+.withdraw-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(128, 128, 128, 0.177);
+  border-radius: 10px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #ffffff;
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.total-coins {
+  font-size: 1.2rem;
+  color: #4caf50;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.message {
+  color: #f44336;
+  font-size: 1rem;
+  margin: 10px 0;
+}
+
+.voucher-options {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  flex-wrap: wrap;
+
+}
+
+.voucher-card {
+  background-color: #2a2a22;
+  padding: 15px;
+  border-radius: 8px;
+  width: 170px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.voucher-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.voucher-card h3 {
+  font-size: 1.1rem;
+  color: #f8f8f8;
+  margin-bottom: 5px;
+}
+
+.voucher-card p {
+  font-size: 1rem;
+  color: #f6f3f3;
+  margin-bottom: 10px;
+}
+
+.redeem-button {
+  background-color: #ff6f61;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  font-size: 0.9rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.redeem-button:hover {
+  background-color: #e65a50;
+}
+.withdraw{
+  background-color: black;
+  height: 700px;
+}
+@media (max-width:700px) {
   .voucher-card {
-    background-color: #444;
-    border-radius: 8px;
-    padding: 20px;
-    width: 100%;
-    max-width: 500px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-    text-align: left;
+    width: 120px;
+
   }
-  
   .voucher-card h3 {
-    margin: 0;
-    font-size: 1.2rem;
+    font-size: 15px;
   }
-  
   .voucher-card p {
-    margin: 8px 0;
-    font-size: 1rem;
+    font-size: 13px;
   }
   
-  .voucher-card button {
-    background-color: #ff9900;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    border-radius: 4px;
-    font-size: 1rem;
+}
+@media (max-width:530px) {
+  .voucher-card {
+    width: 100px;
+
+  }
+  .voucher-card h3 {
+    font-size: 14px;
+  }
+  .voucher-card p {
+    font-size: 12px;
   }
   
-  .voucher-card button:disabled {
-    background-color: #888;
-    cursor: not-allowed;
-  }
-  
+}
