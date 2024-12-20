@@ -25,7 +25,7 @@ const App = () => {
                 <img src={animal_connection} alt="coins" className='coin-img' />
               </div>
               <Link to="/withdraw" className='coin-click'>
-                <button>{coins}</button>
+              {coins}
               </Link>
             </div>
           </div>
